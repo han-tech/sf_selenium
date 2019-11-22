@@ -7,5 +7,6 @@ install:
 script:
  - dotnet build
  - dotnet test HelloSalesforce/HelloSalesforce.csproj
+ - npm run coveralls
 addons:
   chrome: stable
