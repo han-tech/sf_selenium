@@ -1,0 +1,13 @@
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\HelloSalesforce.deps.json
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\HelloSalesforce.runtimeconfig.json
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\HelloSalesforce.runtimeconfig.dev.json
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\HelloSalesforce.dll
+E:\sf_selenium\HelloSalesforce\bin\Debug\netcoreapp2.1\HelloSalesforce.pdb
+E:\sf_selenium\HelloSalesforce\obj\Debug\netcoreapp2.1\HelloSalesforce.csprojAssemblyReference.cache
+E:\sf_selenium\HelloSalesforce\obj\Debug\netcoreapp2.1\HelloSalesforce.AssemblyInfoInputs.cache
+E:\sf_selenium\HelloSalesforce\obj\Debug\netcoreapp2.1\HelloSalesforce.AssemblyInfo.cs
+E:\sf_selenium\HelloSalesforce\obj\Debug\netcoreapp2.1\HelloSalesforce.dll
+E:\sf_selenium\HelloSalesforce\obj\Debug\netcoreapp2.1\HelloSalesforce.pdb

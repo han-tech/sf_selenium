@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {}
+    "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {}
   },
   "projects": {
-    "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {
+    "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
+        "projectUniqueName": "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
         "projectName": "HelloSalesforce",
-        "projectPath": "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
+        "projectPath": "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "e:\\sf_selenium\\HelloSalesforce\\obj\\",
+        "outputPath": "E:\\sf_selenium\\HelloSalesforce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -21,14 +21,14 @@
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "netcoreapp3.0"
+          "netcoreapp2.1"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "netcoreapp3.0": {
+          "netcoreapp2.1": {
             "projectReferences": {}
           }
         },
@@ -39,7 +39,7 @@
         }
       },
       "frameworks": {
-        "netcoreapp3.0": {
+        "netcoreapp2.1": {
           "dependencies": {
             "DotNetSeleniumExtras.PageObjects": {
               "target": "Package",
@@ -60,6 +60,12 @@
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
               "version": "[16.4.0, )"
+            },
+            "Microsoft.NETCore.App": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
             },
             "Selenium.Support": {
               "target": "Package",
@@ -100,11 +106,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "frameworkReferences": {
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100-preview1-014459\\RuntimeIdentifierGraph.json"
         }
       }
