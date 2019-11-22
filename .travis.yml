@@ -6,7 +6,7 @@ install:
 
 script:
  - dotnet build
- - dotnet test HelloSalesforce/HelloSalesforce.csproj /p:CollectCoverage=true
+ - dotnet test HelloSalesforce/HelloSalesforce.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
 
 addons:
   chrome: stable
