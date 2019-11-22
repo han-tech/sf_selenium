@@ -77,10 +77,6 @@
               "target": "Package",
               "version": "[0.57.1, )"
             },
-            "coveralls.net": {
-              "target": "Package",
-              "version": "(, )"
-            },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
