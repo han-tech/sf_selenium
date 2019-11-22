@@ -7,6 +7,10 @@ install:
 script:
  - dotnet build
  - dotnet test HelloSalesforce/HelloSalesforce.csproj /p:CollectCoverage=true /p:CoverletOutputFormat=opencover
-
+ - sonar-scanner
 addons:
   chrome: stable
+  sonarcloud:
+    organization: "han-tech"
+    token:
+      secure: "1fd442acd9a1693fbd07750b4aecdf52eff1d334" # encrypted value of your token
