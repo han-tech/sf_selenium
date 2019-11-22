@@ -5,6 +5,8 @@ using OpenQA.Selenium.Chrome;
 using TestProject.SDK.PageObjects;
 using OpenQA.Selenium.Support.UI;
 using System;
+using System.Reflection;
+using System.IO;
 
 namespace HelloSalesforce
 {
@@ -19,7 +21,7 @@ namespace HelloSalesforce
             // Create driver
             var chromeOptions = new ChromeOptions();
             chromeOptions.AddArguments("--headless");
-            var driver = new ChromeDriver(chromeOptions);
+            var driver = new ChromeDriver(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location),chromeOptions);
             WebDriverWait customWait = new WebDriverWait(driver, TimeSpan.FromMinutes(60));
             // Navigate to example page
             driver.Navigate().GoToUrl("https://login.salesforce.com/");

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {}
+    "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {}
   },
   "projects": {
-    "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {
+    "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
+        "projectUniqueName": "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
         "projectName": "HelloSalesforce",
-        "projectPath": "E:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
+        "projectPath": "e:\\sf_selenium\\HelloSalesforce\\HelloSalesforce.csproj",
         "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "E:\\sf_selenium\\HelloSalesforce\\obj\\",
+        "outputPath": "e:\\sf_selenium\\HelloSalesforce\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
