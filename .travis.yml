@@ -2,7 +2,7 @@ language: csharp
 dotnet: 3.0.100
 
 install:
-- dotnet restore HelloSalesforce
+- dotnet restore
 
 script:
  - dotnet build
